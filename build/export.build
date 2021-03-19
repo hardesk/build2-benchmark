@@ -1,0 +1,10 @@
+$out_root/
+{
+  include buildfile
+}
+
+#info "--> import.target: $import.target"
+#info "--> src_root: $src_root, dst_root: $dst_root"
+#info "--> src_base: $src_base, dst_base: $dst_base"
+
+export $out_root/$import.target

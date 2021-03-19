@@ -1,0 +1,9 @@
+cxx.std = latest
+
+using cxx
+
+hxx{*}: extension = h
+cxx{*}: extension = cc
+
+config [string] config.benchmark.some_opt    ?= "unknown"
+
